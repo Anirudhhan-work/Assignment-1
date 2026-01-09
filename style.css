@@ -146,12 +146,13 @@ input::placeholder {
 
 .sign-now button{
     font-size: 14px;
+    width: 150px;
     font-weight: 400;
     color: #626D82;
     border: 1px solid  #B5BDCD;
     border-radius: 5px;
     background: #fff;
-    padding: 8px 30px;
+    padding: 8px 20px;
     margin-top: 8px;
 }
 
@@ -166,12 +167,12 @@ input::placeholder {
 }
 
 .pending {
-  background: #e5e7eb;
-  color: #374151;
+  background: #E8ECF1;
+  color: #626D82;
 }
 
 .completed {
-  background: #d1fae5;
-  color: #065f46;
+  background: #D3F7B5;
+  color: #1F4451;
 }
 
