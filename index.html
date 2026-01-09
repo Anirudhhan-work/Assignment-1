@@ -104,8 +104,8 @@
           >
             <h1
               style="
-                font-size: 33px;
                 font-weight: 300;
+                height: 10px;
                 color: #2a2a2a;
                 letter-spacing: 0.5px;
                 font-family: 'CarnokyType Zin Display Condensed', sans-serif;
@@ -119,6 +119,45 @@
             </div>
           </div>
         </section>
+
+        <table class="documents">
+            <tr>
+              <th
+                class="flex"
+                style="
+                  align-items: center;
+                  gap: 10px;
+                  margin-top: 10px;
+                  border-top: none;
+                "
+              >
+                <input type="checkbox" /><img
+                  src="assets/dropdown.png"
+                  style="height: 4.67px"
+                  alt=""
+                />
+              </th>
+              <th>Document Name</th>
+              <th>Status</th>
+              <th>Last Modified</th>
+              <th></th>
+              <th></th>
+            </tr>
+
+          <tr>
+            <td><input type="checkbox" /></td>
+            <td class="doc-name">Title of Document Goes Here</td>
+            <td><span class="badge needs-signing">Needs Signing</span></td>
+            <td style="font-weight: 400; font-size: 15.5px; color: #626d82">
+              10/22/2024<br />
+              2:01 pm
+            </td>
+            <td class="sign-now">
+              <button class="primary">Sign now</button>
+              <img src="assets/dots.png" alt="" />
+            </td>
+          </tr>
+        </table>
       </div>
     </div>
   </body>
